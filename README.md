@@ -11,36 +11,37 @@ A work in progress filesystem written in C.
 ## Directory Structure
 
 ```
-acnn-1/
+ACNN-v1.0.0-alpha/
 ├── include/        # Header files
 ├── src/            # C source code files
-├── tests/          # Scripts for testing
 ├── Makefile        # Build instructions
 └── README.md       # You're looking right at me bud
 ```
 
 ## Building the Project
 
-Make sure you have either [gcc](https://gcc.gnu.org/), or [Clang](https://clang.llvm.org/) installed. Then, move the project to your `$HOME` directory, and once inside the project directory run:
+Make sure you have either [gcc](https://gcc.gnu.org/), or [Clang](https://clang.llvm.org/) installed. Then, move the project source code to your `$HOME` directory, and once inside the project directory run:
 
 ```
 make
 ```
 
-This will create the build directory at `HOME/build-acnn` with the compiled executable and object files.
+This will create the build directory at `$HOME/build-acnn` with the compiled executable and object files.
 
 ## Running the Filesystem
 
 After building, run the filesystem by executing:
 
 ```
-./build-acnn/acnnfs <disk size>
+cd $HOME/build-acnn
+./run-acnn <disk size>
 ```
 
 For example:
 
 ```
-./build-acnn/acnnfs 128MB
+cd $HOME/build-acnn
+./run-acnn 128MB
 ```
 
 
