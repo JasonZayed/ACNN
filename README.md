@@ -20,7 +20,7 @@ ACNN-v1.0.0-alpha/
 
 ## Building the Project
 
-Make sure you have either [gcc](https://gcc.gnu.org/), or [Clang](https://clang.llvm.org/) installed. Then, move the project source code to your `$HOME` directory, and once inside the project directory run:
+Make sure you have either [gcc](https://gcc.gnu.org/), or [Clang](https://clang.llvm.org/) installed. Then, move the project source code folder to your `$HOME` directory, and once inside the project directory run:
 
 ```
 make
